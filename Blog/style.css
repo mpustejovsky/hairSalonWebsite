@@ -1,0 +1,32 @@
+
+* {
+  box-sizing: border-box;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+  margin: 1%, 1%;
+}
+
+.header {
+  background-color: white;
+  padding: 3px;
+  text-align: left;
+  font-size: 35px;
+  
+}
+
+a:link, a:visited {
+  border-radius: 25px;
+  border: 2px solid rgb(41, 7, 195);
+  background: none;
+  padding: 2px;
+  font-size: 14px;
+  vertical-align: top;  
+  display: inline-block;
+  text-decoration: none;
+  
+}
+a:hover, a:active {
+  background-color: red;
+}
