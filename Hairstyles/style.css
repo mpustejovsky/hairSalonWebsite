@@ -1,3 +1,8 @@
+@font-face{
+  font-family: hairfont;
+  src: url(./img/HairStyles.ttf);
+}
+
 * {
     box-sizing: border-box;
   }
@@ -46,6 +51,7 @@
     text-align: center; 
     margin-top: 60px;
     margin-left: 20px;
+    font-family: hairfont;
   }
 
  body {
@@ -282,7 +288,12 @@
           margin-left: 5px;
           margin-right: 5px;}
           
-       
+        .icons{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-top: 5px;
+    }
       
         .footer img {
           width: 50px;
@@ -309,7 +320,15 @@
         .header2{
           height: 60px;
           background-color: rgb(100, 145, 100);
-          
+
+        }
+
+        .Infomess{
+          color: white;
+          text-align: center;
+          padding-top: 20px;
+          font-size: 20px;
+          font-family: hairfont;
         }
         .mobile-container {
           max-width: 480px;
